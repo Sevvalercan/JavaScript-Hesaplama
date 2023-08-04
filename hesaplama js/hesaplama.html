@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Başlıksız Belge</title>
+</head>
+
+<body>
+	<script type="text/javascript">
+	
+	function toplama(){
+		var sayi1=parseInt(prompt("BİRİNCİ SAYIYI GİRİNİZ: "));
+		var sayi2=parseInt(prompt("İKİNCİ SAYIYI GİRİNİZ: "));
+		var toplam=sayi1+sayi2;
+		document.write("Sayıların Toplamı= "+toplam);
+	}
+	
+		function cikarma(){
+		var sayi1=parseInt(prompt("BİRİNCİ SAYIYI GİRİNİZ: "));
+		var sayi2=parseInt(prompt("İKİNCİ SAYIYI GİRİNİZ: "));
+		var cikarma=sayi1-sayi2;
+		document.write("Sayıların Toplamı= "+cikarma);
+	}
+		function carpma(){
+		var sayi1=parseInt(prompt("BİRİNCİ SAYIYI GİRİNİZ: "));
+		var sayi2=parseInt(prompt("İKİNCİ SAYIYI GİRİNİZ: "));
+		var carpma=sayi1*sayi2;
+		document.write("Sayıların Toplamı= "+carpma);
+	}
+		function bolme(){
+		var sayi1=parseInt(prompt("BİRİNCİ SAYIYI GİRİNİZ: "));
+		var sayi2=parseInt(prompt("İKİNCİ SAYIYI GİRİNİZ: "));
+		var bolme=sayi1/sayi2;
+		document.write("Sayıların Toplamı= "+bolme);
+	}
+	
+		var secim=parseInt(prompt("1-Toplama 2-Çıkarma 3-Çarpma 4-Bölme"));
+		if(secim==1){toplama()}
+		if(secim==2){cıkarma()}
+		if(secim==3){carma()}
+		if(secim==4){bolme()}
+		if(secim<1 ||secim>4){document.write("Hatalı Giriş Yaptınız")}
+	</script>
+</body>
+</html>
